@@ -1,8 +1,15 @@
 body{
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
 }
 h1{
     font-size: 50px;
+}
+section{
+    height: 500px;
 }
 .text-hilight{
     color: orange;
@@ -15,4 +22,18 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.web-link{
+    color: white;
+    background:linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;    ;
+    -webkit-border-radius: 5px    ;
+    -moz-border-radius: 5px    ;
+    -ms-border-radius: 5px    ;
+    -o-border-radius: 5px    ;
 }
