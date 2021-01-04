@@ -55,6 +55,7 @@ p{
 .single-exprein{
     box-shadow: 3px 3px 40px rgb(138, 137, 137);
     height: 90%;
+    background-color: white;
   
 }
 .ex-p{
@@ -71,4 +72,9 @@ p{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
 }
